@@ -24,12 +24,9 @@ public class Spectator {
 		
 		if(a.getHiders().contains(p)) {
 			List<Player> hiders = a.getHiders();
-			List<Player> forgottenHiders = a.getForgottenHiders();
-			p.sendMessage("before forgottenList " + forgottenHiders);
 			p.sendMessage("before forgotten " + a.getForgottenHiders());
 			p.sendMessage("before hiders " + hiders);
 //			hiders.remove(p);
-			p.sendMessage("after forgottenList " + forgottenHiders);
 			p.sendMessage("after forgotten " + a.getForgottenHiders());
 			p.sendMessage("after hiders " + hiders);
 			a.setHiders(hiders);
