@@ -1,0 +1,11 @@
+name : GuessWho
+version : 1.0
+author : joschma
+main : fr.joschma.GuessWho.GuessWho
+api-version: 1.13
+depend: [LibsDisguises]
+
+
+commands:
+  gw:
+   description: toute les commandes liees a GuessWho
